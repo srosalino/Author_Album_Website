@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- Information about the page, including the title, metainformation and the css file to be applied -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous writers photo album</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <nav> <!-- Navigation bar to navigate through the author's information using the author ID -->
+
+        <div id="navigationLinks">
+            <a href=#rowlingRow>J.K.Rowling</a>
+            <a href=#tolstoyRow>Lev Nikolayevich Tolstoy</a>
+            <a href=#kingRow>Stephen King</a>
+            <a href="#frankRow">Anne Frank</a>
+        </div>
+
+    </nav>
+
+    <h1>Welcome to the photo album of famous writers!</h1> <!-- Introduction to the purpose of the page -->
+
+    <section> <!-- Beginning of the form/table section -->
+
+        <!-- Brief introduction to the purpose of the following table -->
+        <h2>This is a photo album that collects the photos and biographics along with their best-sellers of many famous
+            writers. This project is an ongoing process and we would love your input!
+        </h2>
+
+        <form action="https://wt.ops.labs.vu.nl/api23/7579f29e" method="post">
+
+            <table>
+
+                <caption>Photo album</caption> <!-- Table caption -->
+
+                
+                <thead> <!-- First table row containing the headers -->
+                    <tr>
+                        <th>image</th>
+                        <th>author</th>
+                        <th>alt</th>
+                        <th>tags</th>
+                        <th>description</th>
+                    </tr>
+                </thead>
+
+                <tr id="rowlingRow"> <!-- J.K. Rowling row -->
+                    <td>
+                        <figure>
+                            <a href="https://en.wikipedia.org/wiki/J._K._Rowling" target="_blank"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/330px-J._K._Rowling_2010.jpg"
+                                    alt="Image of J.K.Rowling"></a>
+                            <figcaption><em>Source: Wikipedia</em></figcaption>
+                        </figure>
+                    </td>
+                    <td>J.K.Rowling</td>
+                    <td>Image of J.K.Rowling</td>
+                    <td>
+                        <dl> <!-- Description list containing the author's biography -->
+                            <dt>Nationality:</dt>
+                            <dd>British,</dd>
+                            <dt>Gender:</dt>
+                            <dd>Female,</dd>
+                            <dt>Occupations:</dt>
+                            <dd>Author</dd>
+                        </dl>
+                    <td>
+                        <p>Joanne Rowling, also known by her pen name J. K. Rowling, is a British author and
+                            philanthropist.
+                            She wrote Harry Potter, a seven-voloume children's fantasy series published from 1997 to
+                            2007.
+                        </p>
+                        <strong>Best-selling books</strong>
+                        <ol> <!-- Ordered best-sellers from the most selled -->
+                            <li><em>Harry Potter And The Sorcerer's/Philosopher's Stone</em>
+                                <ul>
+                                    <li>Publication date: 26 June 1997</li>
+                                    <li>Publisher: Bloomsbury <abbr title="United Kingdom">UK</abbr></li>
+                                </ul>
+                            </li>
+                            <li><em>Harry Potter And The Half-Blood Prince</em>
+                                <ul>
+                                    <li>Publication date: July 16, 2005</li>
+                                    <li>Publisher: Bloomsbury <abbr title="United Kingdom">UK</abbr></li>
+                                </ul>
+                            </li>
+                            <li><em>Harry Potter And The Chamber Of Secrets</em>
+                                <ul>
+                                    <li>Publication date: November 21, 2002</li>
+                                    <li>Publisher: Bloomsbury <abbr title="United Kingdom">UK</abbr></li>
+                                </ul>
+                            </li>
+                        </ol>
+
+                    </td>
+
+                </tr>
+
+                <tr id="tolstoyRow"> <!-- Tolstoy row -->
+                    <td>
+                        <figure>
+                            <a href="https://en.wikipedia.org/wiki/Leo_Tolstoy" target="_blank"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/300px-L.N.Tolstoy_Prokudin-Gorsky.jpg"
+                                    alt="Image of Lev Nikolayevich Tolstoy"></a>
+                            <figcaption><em>Source: Wikipedia</em></figcaption>
+                        </figure>
+                    </td>
+                    <td>Lev Nikolayevich Tolstoy</td>
+                    <td>Image of Lev Nikolayevich Tolstoy</td>
+                    <td>
+                        <dl> <!-- Description list containing the author's biography -->
+                            <dt>Nationality:</dt>
+                            <dd>Russian,</dd>
+                            <dt>Gender:</dt>
+                            <dd>Male,</dd>
+                            <dt>Occupations:</dt>
+                            <dd>Writer,</dd>
+                            <dd>Novelist,</dd>
+                            <dd>Philosopher</dd>
+                        </dl>
+                    </td>
+                    <td>
+                        <p>Born in 1828 into an aristocratic family, Tolstoy is known for his novels War and Peace
+                            (1869)
+                            and Anna Karenina (1877),
+                            often cited as true pinnacles of realistic fiction. He achieved literary acclaim at a young
+                            age,
+                            firstly with his
+                            semi-autobiographical trilogy, Childhood, Adolescence and Youth (1852-1856) and for his
+                            Chronicles of Sevastopol (1855), a
+                            work based on his experiences in the Crimean War.</p>
+                        <strong>Best-selling books</strong>
+                        <ol> <!-- Ordered best-sellers from the most selled -->
+                            <li><em>Anna Karenina</em>
+                                <ul>
+                                    <li>Publication date: 1877</li>
+                                    <li>Publisher: The Russian Messenger <abbr title="Russian">RU</abbr></li>
+                                </ul>
+                            </li>
+                            <li><em>War and Peace</em>
+                                <ul>
+                                    <li>Publication date: 1867</li>
+                                    <li>Publisher: The Russian Messenger <abbr title="Russia">RU</abbr></li>
+                                </ul>
+                            </li>
+                            <li><em>The Kreutzer Sonata</em>
+                                <ul>
+                                    <li>Publication date:1889</li>
+                                    <li>Publisher: Modern Library <abbr title="Russia">RU</abbr></li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr id="kingRow"> <!-- Stephen King row --> 
+                    <td>
+                        <figure>
+                            <a href="https://en.wikipedia.org/wiki/Stephen_King" target="_blank"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Stephen_King%2C_Comicon.jpg/330px-Stephen_King%2C_Comicon.jpg"
+                                    alt="Image of Stephen King"></a>
+                            <figcaption><em>Source: Wikipedia</em></figcaption>
+                        </figure>
+                    </td>
+                    <td>Stephen King</td>
+                    <td>Image of Stephen King</td>
+                    <td>
+                        <dl> <!-- Description list containing the author's biography -->
+                            <dt>Nationality:</dt>
+                            <dd>American,</dd>
+                            <dt>Gender:</dt>
+                            <dd>Male,</dd>
+                            <dt>Occupations:</dt>
+                            <dd>Author</dd>
+                        </dl>
+                    <td>
+                        <p>Stephen Edwin King is an American author of horror, supernatural fiction, suspense, crime,
+                            science-fiction, and fantasy
+                            novels.
+                        </p>
+                        <strong>Best-selling books</strong>
+                        <ol> <!-- Ordered best-sellers from the most selled -->
+                            <li><em>Misery</em>
+                                <ul>
+                                    <li>Publication date: 26 June 1997</li>
+                                    <li>Publisher: Viking <abbr title="United States of America">USA</abbr></li>
+                                </ul>
+                            </li>
+                            <li><em>It</em>
+                                <ul>
+                                    <li>Publication date: September 15, 1986</li>
+                                    <li>Publisher: Simon & Schuster <abbr title="United States of America">USA</abbr>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><em>Pet Sematory</em>
+                                <ul>
+                                    <li>Publication date: November 14, 1983</li>
+                                    <li>Publisher: Doubleday <abbr title="United States of America">USA</abbr></li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr id="frankRow"> <!-- Anne Frank row -->
+                    <td>
+                        <figure>
+                            <a href="https://en.wikipedia.org/wiki/Anne_Frank" target="_blank"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Anne_Frank_passport_photo%2C_May_1942.jpg/330px-Anne_Frank_passport_photo%2C_May_1942.jpg"
+                                    alt="Image of Anne Frank"></a>
+                            <figcaption><em>Source: Wikipedia</em></figcaption>
+                        </figure>
+                    </td>
+                    <td>Anne Frank</td>
+                    <td>Image of Anne Frank</td>
+                    <td>
+                        <dl> <!-- Description list containing the author's biography -->
+                            <dt>Nationality:</dt>
+                            <dd>Dutch,</dd>
+                            <dt>Gender:</dt>
+                            <dd>Female,</dd>
+                            <dt>Occupations:</dt>
+                            <dd>Author</dd>
+                        </dl>
+                    <td>
+                        <p>Annelies Marie "Anne" Frank was a German-born Jewish girl who kept a diary in which she
+                            documented life in hiding under Nazi persecution. She is a celebrated diarist who described
+                            everyday life from her family hiding place in an Amsterdam attic.
+                        </p>
+                        <pre>
+    Famous quote from Anne Frank:
+        
+    In spite of everything, 
+    I still believe that people 
+    are really good at heart.
+                        </pre>
+                        <strong>Best-selling books</strong>
+                        <ol> <!-- Ordered best-sellers from the most selled -->
+                            <li><em>The Diary of a Young Girl</em>
+                                <ul>
+                                    <li>Publication date: June 25, 1947</li>
+                                    <li>Publisher: Contact Publishing
+                                </ul>
+                            </li>
+                        </ol>
+
+                </tr>
+
+                <tr> <!-- Form dedicated row -->
+
+                    <td> <!-- Input field for the image URL -->
+                        <label for="image">Insert author image:</label>
+                        <input class="form_input" type="url" id="image" name="image" required
+                            placeholder="Insert a public URL">
+                    </td>
+
+                    <td> <!-- Input text field for the author name -->
+                        <label for="author">Insert author name:</label>
+                        <input class="form_input" type="text" id="author" name="author" required>
+                    </td>
+
+                    <td> <!-- Input text field for the author alt -->
+                        <label for="alt">Insert author Alt:</label>
+                        <input class="form_input" type="text" id="alt" name="alt" required>
+                    </td>
+
+                    <td> <!-- Input text field for the author tags -->
+                        <label for="tags">Insert author tags:</label>
+                        <input class="form_input" type="text" id="tags" name="tags" required>
+                    </td>
+
+                    <td> <!-- Input text-area field for the author description -->
+                        <label for="description">Insert author description:</label><br>
+                        <textarea class="form_input" id="description" rows="10" cols="30" name="description" required
+                            placeholder="Insert a brief description of the author along with their best-sellers"></textarea>
+                        <br>
+                        <input type="submit" value="Submit author" id="submitButton"> <!-- Submit form button -->
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </form>
+
+    </section>
+
+    <section id="browserReport"> <!-- Browser compatibility section -->
+
+        <h2>Browser Compatibility Report</h2>
+
+        <p>We tested this webpage on three different mainstream browsers: Chrome, Firefox, and Edge. All of them rendered the webpage equally, 
+            except when printing the page, where Chrome preserved the navigation links, while Edge and Firefox lost that functionality.</p>
+
+    </section>
+
+    <footer> <!-- Page's footer including the author's contact and lab group information -->
+
+        <h3>Contact us</h3>
+
+        <div>Creator: Jie.Ren <a class="mail" href="mailto:j.ren2@student.vu.nl">j.ren2@student.vu.nl</a></div>
+
+        <div>Creator: Sebastião Rosalino <a class="mail"
+                href="mailto:s.m.inacio.rosalino@student.vu.nl">s.m.inacio.rosalino@student.vu.nl</a></div>
+
+        <br>
+
+        <div id="webTechnology">Web Technology Lab 7 &copy;</div>
+
+    </footer>
+
+</body>
+
+</html>
